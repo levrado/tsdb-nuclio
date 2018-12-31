@@ -101,7 +101,6 @@ func Ingest(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 
 // InitContext runs only once when the function runtime starts
 func InitContext(context *nuclio.Context) error {
-	return nil
 	var err error
 	var userData userData
 
