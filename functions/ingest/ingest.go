@@ -61,7 +61,6 @@ var adapter *tsdb.V3ioAdapter
 var adapterLock sync.Mutex
 
 func Ingest(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
-	return nil, nil
 	var request request
 
 	// parse body
